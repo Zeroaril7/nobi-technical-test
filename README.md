@@ -291,10 +291,4 @@ The application will be accessible at `http://localhost:<APP_PORT>`.
 
 ---
 
-## Contributing
-
-If you’d like to contribute, feel free to fork this repository and submit a pull request. Ensure your code follows the best practices and includes tests.
-
----
-
 Thank you!
