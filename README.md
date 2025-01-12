@@ -51,6 +51,18 @@ Create a `.env` file in the root directory by copying `.env.example`:
 cp .env.example .env
 ```
 
+## Ethereum Smart Contract Fetcher
+```plaintext
+ETHEREUM_RPC_URL=https://mainnet.infura.io/v3/
+ETHEREUM_RPC_API_KEY={your_infura_api_key}
+CONTRACT_ADDRESS={contract_address}
+```
+
+## Websocket
+```plaintext
+OKX_API_KEY={your_okx_api_key}
+```
+
 ### Development Environment
 
 #### Database
