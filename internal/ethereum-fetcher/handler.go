@@ -28,5 +28,5 @@ func GetExchangeRate(c *gin.Context) {
 		return
 	}
 
-	c.JSON(http.StatusOK, gin.H{"data": parsedData, "message": "Success get exchange rate"})
+	c.JSON(http.StatusOK, gin.H{"data": parsedData, "message": "Successfully retrieved exchange rate"})
 }
