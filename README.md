@@ -99,20 +99,6 @@ To run the project in development mode:
 go run cmd/main.go
 ```
 
-### Running in Docker
-
-To run using Docker:
-
-```bash
-docker-compose up
-```
-
-The application will be accessible at `http://localhost:<APP_PORT>`. 
-
-If available, API documentation can be found at `/api/v1/docs`.
-
----
-
 ## API Reference
 
 ### Get Exchange Rate
