@@ -77,7 +77,7 @@ func FetchExchangeRate() (*big.Float, error) {
 
 func SaveExchangeRateIntoRedis(rate *big.Float) error {
 	key := "price:Crypto:APEETH/ETH"
-	smartContract := NewSmartContractData("ethereum", "Crypto:ALL:APEETH/ETH", "APEETH", "ETH", rate.Text('f', 18))
+	smartContract := NewSmartContractData("infura", "Crypto:ALL:APEETH/ETH", "APEETH", "ETH", rate.Text('f', 18))
 	redisData := NewRedisInfuraData(smartContract)
 
 	dataJSON, err := json.Marshal(redisData)
